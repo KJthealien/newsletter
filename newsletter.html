@@ -1,0 +1,772 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>redstamp - Summer Newsletter</title>
+        <style type="text/css">
+            body {
+                margin: 0; 
+                padding: 0; 
+                min-width: 100%!important;
+                }
+            a{text-decoration: none;}
+            h2{
+                font-family: 'tiempos_textmedium';
+                font-size: 1.6em;
+                color: #0a273c;
+                margin: 0px;
+                margin-bottom:5px;
+                }
+            p{
+                font-family: 'alright_sansregular';
+                font-size: 0.8em;
+                line-height: 1.1em;
+                margin: 0px;
+                }
+            h3{
+                font-size: 1.13em;
+                font-family: 'tiempos_textmedium';
+                margin: 8px 0px 13px;
+                }    
+            @font-face {
+                font-family: 'alright_sansbold';
+                src: url('fonts/alrightsans-bold-webfont.woff2') format('woff2'),
+                    url('fonts/alrightsans-bold-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
+            @font-face {
+                font-family: 'alright_sanslight';
+                src: url('fonts/alrightsans-light-webfont.woff2') format('woff2'),
+                    url('fonts/alrightsans-light-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
+            @font-face {
+                font-family: 'alright_sansmedium';
+                src: url('fonts/alrightsans-medium-webfont.woff2') format('woff2'),
+                    url('fonts/alrightsans-medium-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
+            @font-face {
+                font-family: 'alright_sansregular';
+                src: url('fonts/alrightsans-regular-webfont.woff2') format('woff2'),
+                    url('fonts/alrightsans-regular-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+                }
+            @font-face {
+                font-family: 'tiempos_textmedium';
+                src: url('fonts/tiempostext-medium-webfont.woff2') format('woff2'),
+                    url('fonts/tiempostext-medium-webfont.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+               }
+            .content {
+                width: 100%; 
+                max-width: 600px;
+                }  
+            .header {
+                padding: 14px 42px 35px 51px;
+                
+                }
+            .view-browser a{
+                font-size: 0.63em; 
+                color: #ec5447;
+                font-family: 'alright_sansregular';
+                }
+            .view-browser a:hover{
+                color: #904039;
+                }
+            .title {
+                padding: 0px 42px 35px 49px;
+                }
+            .title-info h1{
+                font-family: 'tiempos_textmedium';
+                font-weight: 100;
+                font-size: 2.8em;
+                color: #0a273c;
+                margin: 0px;
+                line-height: 45px;
+                padding-bottom: 19px;
+                }
+            .title-info p{
+                font-size: 0.9em;
+                color: #85939e;
+                margin: 0px;
+                line-height: 1em;
+                }
+            td{
+                padding: 0px;
+                }
+            .content-info h5{
+                font-family: 'alright_sansregular';
+                font-size: 0.65em;
+                color: #60cbe2;
+                margin: 0px;
+                }
+            .gray-line{
+                background-color: #85939e;
+                height: 1px;
+                width: 100%;
+                }
+            .content-info{
+                text-align: left;
+                }
+            .content-info p, .content-info h3{
+                color:  #0a273c;
+                }
+            .text-12{
+                font-size: 0.75em;
+                margin-bottom: 10px;
+                }
+            .title-15{
+                font-size: 0.94em;
+                margin-bottom: 11px;
+                margin-top: 0px;
+                }
+            .post{
+                border: solid 1px #eceef0;
+                border-collapse: collapse;
+                }
+            .banner{
+                height: 50px;
+                }
+            .find-out{
+                color: #ffffff;
+                font-weight: 600;
+                }
+            .social-media {
+                padding: 21px 45px 19px;
+                border-bottom: solid 2px #eceef0;
+                }
+            .footer-links{
+                text-align: center;
+                padding: 35px 0px 15px;
+                }
+            .footer-links a{
+                color: #0a273c;
+                font-size: 12px;
+                display: inline-block;
+                font-family: 'alright_sansregular';
+                }
+            .footer-links a:hoover{
+                color: #2f82bd !important;
+                text-decoration: underline !important;
+                }
+            .copyright p{
+                font-family: 'alright_sansregular';
+                font-size: 12px;
+                margin: 0px;
+                text-align: center;
+                color: #85939e;
+            }
+            .footer-icon{
+                padding: 35px 0px 77px;
+                text-align: center;
+            }
+            .responsive-tb{
+                width: 600px;
+                margin: auto;
+                }
+            .l-col-64{
+                width: 64px;
+                float: left;
+                }
+            .r-col-330{
+                width: 330px;
+                float: left;
+                }
+            .l-margin-64{
+                margin-top: 37px; 
+                margin-left:23px;
+                }
+            .l-margin-container{
+                margin: 73px 0px 0px 38px;
+                }
+            .r-margin-container{
+                margin: 40px 42px 50px 35px;
+                }
+            .content-table-padding{
+                padding-top: 25px;
+                padding-right: 42px;
+                padding-left:  35px;
+                }
+        /* MIN 601px */
+            @media only screen and (min-device-width: 601px) {
+                .right-col{
+                    width: 100%;
+                    height: 36px;
+                    max-width: 234px;
+                    text-align: right;
+                    }
+                .left-col{
+                    width: 273px;
+                    float: left;
+                    }
+                .centered{
+                    width: 273px;
+                    margin: auto;
+                    }
+                .content {
+                    width: 600px !important;
+                    }
+                .content-info{
+                    padding:0px 15px 26px 15px;
+                }
+                .col330 {
+                    width: 330px!important;
+                    }
+                .post-container{
+                    width: 509px;
+                    border-collapse: collapse;
+                    }
+                .post{
+                    width: 240px;
+                    height: 275px;
+                    float: left;
+                    }
+                .container{
+                    padding: 0px 45px;
+                    }
+                }
+         /* MAX 600px */        
+            @media only screen and (max-width: 600px), screen and (max-device-width: 600px) {
+                .right-col{
+                    float: inherit;
+                    width: 100%;
+                    max-width: inherit !important;
+                    }
+                .left-col{
+                    width: 100%;
+                    float: inherit;
+                    }
+                .logo{
+                    margin-top: 30px;
+                    width: 40% !important;
+                    }
+                .title-info{
+                    padding: 0px 40px;
+                    }
+                .centered{
+                    margin: 0px;
+                    width: 100% !important;
+                    }
+                .responsive-tb{
+                    width: 100%;
+                    }
+                .content {
+                    width: 100% !important;
+                    max-width: inherit;
+                    }
+                .header{
+                    padding: 14px 0px 35px;
+                    }
+                td{
+                    width: 100%;
+                    }
+                tr > td{
+                    text-align: center;
+                    }
+                .post-container{
+                    width: 100% !important;
+                    }
+                .post{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    height: auto;
+                    float: inherit;
+                    }
+                .post img{
+                    padding-top: 30px;
+                    width: 80%;
+                    }
+                .container{
+                    padding: 0px !important;
+                    }
+                .banner{
+                    height: 80px;
+                    }
+                .display-none{
+                    display: none !important;
+                    }
+                .l-col-64{
+                    float: inherit;
+                    width: 100%;
+                    }
+                .r-col-330{
+                    float: inherit;
+                    width: 100%;
+                    }
+                .l-col-64 img{
+                    width: 200px;
+                    }
+                .l-margin-64{
+                    margin-top: 37px; 
+                    margin-left:0px;
+                    }
+                .content-info{
+                    padding: 0px 60px 30px !important;
+                    }
+                .r-margin-container {
+                    margin: 40px 0px 50px !important;
+                    }
+                .text-center{
+                    text-align: center !important;
+                    }
+                .size-70-img{
+                    width: 70%;
+                    }
+                .full-size-img{
+                    width: 100%;
+                    }
+                .copyright p, .footer-links a{
+                    font-size: 1em;
+                    }
+                .view-browser img{
+                    width: 50px;
+                    }
+                .made-in{
+                    font-size: 1em !important;
+                    }
+                .title-info h1{
+                    font-size: 3.3em;
+                    }
+                .tips{
+                    padding: 40px 0px;
+                    }
+                .tips h2{
+                    font-size: 2.2em;
+                    }
+                .title-info p, .tips p{
+                    font-size: 1em;
+                    margin-top: 10px;
+                    width: 100%;
+                    margin: auto;
+                    }
+                .footer-icon img{
+                    width: 50px;
+                    }
+                .view-browser a{
+                    font-size: 0.8em;
+                    }
+                }
+        </style>
+    </head>
+    <body yahoo bgcolor="#f1f1f1">
+        <table class="responsive-tb" width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
+                        <tbody>
+                        <!-- HEADER -->
+                            <tr>
+                                <td bgcolor="#ffffff" class="header">
+                                    <table class="left-col" border="0" cellpadding="0" cellspacing="0">  
+                                        <tbody>
+                                            <tr>
+                                                <td height="36">
+                                                    <img class="logo" src="img/rs-logo.svg" width="141" border="0" alt="">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="right-col" border="0" cellpadding="0" cellspacing="0" >  
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="view-browser">
+                                                                    <a href="#">View in your browser</a>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        <!-- TITLE - HERO IMAGE -->
+                            <tr>
+                                <td bgcolor="#ffffff" class="title">
+                                    <table class="left-col" border="0" cellpadding="0" cellspacing="0">  
+                                        <tbody>
+                                            <tr>
+                                                <td height="179" class="title-info">
+                                                    <h1 height="90">Summer Newsletter</h1>
+                                                    <p>Lorem ipsum dolor sit amet proin gravida amet lorem ipsum sum dolor sit.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="right-col" border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 36px; max-width: 234px; text-align: right;">  
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <img class="size-70-img" src="img/newsletter-01.png" width="222px">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#ffffff">
+                                    <table class="centered" border="0" cellpadding="0" cellspacing="0">  
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <img class="full-size-img" src="img/team.jpg">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        <!-- CONTENT -->
+                            <tr>
+                                <td bgcolor="#f7f8f9" class="container">
+                                    <table bgcolor="#ffffff" class="post-container" >
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="l-col-64 l-margin-container display-none" border="0" cellpadding="0" cellspacing="0">  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="2" class="gray-line">
+                                                                    <!-- gray line in content -->
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="r-col-330 r-margin-container" border="0" cellpadding="0" cellspacing="0">  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="content-info">
+                                                                                    <h5>TRACTION</h5>
+                                                                                    <h3>Traction Conference 2017</h3>
+                                                                                    <p>Hi There! We’re still riding high on our incredible experience at this year’s Traction conference! 
+                                                                                        We helped <font style="color:#ec5447; font-weight:500">sponsor the event</font>, bringing some of the best minds in tech, SaaS, and growth to Vancouver 
+                                                                                        for a few days of straight-up geeking out. 
+                                                                                        <br/>
+                                                                                        <br/>
+                                                                                        We made a lot of new friends and learned a lot of new things, and we’re already excited to make 
+                                                                                        an even bigger splash next year! </p>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table bgcolor="#f7f8f9" width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align:center; padding-top:40px; padding-bottom:40px">
+                                        <tbody>
+                                            <tr>
+                                                <td class="tips">
+                                                    <h2>3 Tips for Action</h2>
+                                                    <p>All the things you need to know lorem ipsum.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f7f8f9" class="container" >
+                                    <table bgcolor="#ffffff" class="post-container" style="border-spacing: inherit; margin-bottom: 20px;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="l-col-64 l-margin-64" border="0" cellpadding="0" cellspacing="0">  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="img/growth-icon-3.svg">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="r-col-330 content-table-padding" border="0" cellpadding="0" cellspacing="0">  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="content-info text-center">
+                                                                                    
+                                                                                    <h3 class="title-15">Investing for brand growth</h3>
+                                                                                    <p class="text-12">Zapier is an incredibly versatile tool that integrates with all sorts 
+                                                                                        of apps to make your life easier</p>
+                                                                                    <h5>READ MORE</h5>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table bgcolor="#ffffff" class="post-container" style="border-spacing: inherit; margin-bottom: 20px;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="l-col-64 l-margin-64" border="0" cellpadding="0" cellspacing="0" >  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="img/growth-icon-3.svg">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="r-col-330 content-table-padding" border="0" cellpadding="0" cellspacing="0" >  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="content-info text-center">
+                                                                                    <h3 class="title-15">Social Media Trends</h3>
+                                                                                    <p class="text-12">Zapier is an incredibly versatile tool that integrates with all sorts 
+                                                                                        of apps to make your life easier</p>
+                                                                                    <h5>READ MORE</h5>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table bgcolor="#ffffff" class="post-container" style="border-spacing: inherit;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table class="l-col-64 l-margin-64" border="0" cellpadding="0" cellspacing="0">  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <img src="img/growth-icon-3.svg">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table class="r-col-330 content-table-padding" border="0" cellpadding="0" cellspacing="0" >  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="content-info text-center">
+                                                                                    <h3 class="title-15">Social Media Trends</h3>
+                                                                                    <p class="text-12">Zapier is an incredibly versatile tool that integrates with all sorts 
+                                                                                        of apps to make your life easier</p>
+                                                                                    <h5>READ MORE</h5>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table bgcolor="#f7f8f9" width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align:center; padding-top:40px; padding-bottom:30px">
+                                        <tbody>
+                                            <tr>
+                                                <td class="tips">
+                                                    <h2>Your favourite blog posts</h2>
+                                                    <p>Our readers have found these post interesting this month.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#f7f8f9" style="padding-left: 45px; padding-right: 45px; padding-bottom: 40px;">
+                                    <table bgcolor="#f7f8f9" class="post-container" style="border-spacing: inherit;">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table bgcolor="#ffffff" class="post" border="0" cellpadding="0" cellspacing="0" style="margin-right: 25px;">  
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <table border="0" cellspacing="0" cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <img src="img/rs-traction.png" width="240px">
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td class="content-info" >
+                                                                                        <h5>TRACTION</h5>
+                                                                                        <h3 class="title-15">Takeaway from Traction</h3>
+                                                                                        <p class="text-12">We learned so much from leading growth and business
+                                                                                            leaders at Traction Conf 2017. Here are our favourite Twitter
+                                                                                            takeaways from the two-day event.</p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    <table bgcolor="#ffffff" class="post" border="0" cellpadding="0" cellspacing="0">  
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <table border="0" cellspacing="0" cellpadding="0">
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <img src="img/rs-sales.png" width="240px">
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="content-info" style="padding:0px 15px 26px 15px" >
+                                                                                    <h5>TRACTION</h5>
+                                                                                    <h3 class="title-15">Sales Automation Made Easy</h3>
+                                                                                    <p class="text-12">We learned so much from leading growth and business leaders
+                                                                                        at Traction Conf 2017. Here are our favourite Twitter takeaways from the
+                                                                                        two-day event.</p>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        <!-- FOOTER -->
+                            <tr>
+                                <td bgcolor="#ec5447" class="banner">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0">  
+                                        <tbody>
+                                            <tr>
+                                                <td height="19" style="color: #ffffff">
+                                                    <p class="made-in">We now do CRO, let us optimize your landing pages <a href="#" class="find-out">- Find out more</a></p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td bgcolor="#ffffff" class="social-media">
+                                    <table class="left-col" border="0" cellpadding="0" cellspacing="0">  
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p class="made-in" style="width: max-content; display: inline-block; font-size: 14px; color:#85939e">Made in <b>Canada.</b></p>
+                                                    <img src="img/canada.svg">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="right-col" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 234px; text-align: right;">  
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="view-browser">
+                                                                    <img src="img/linkedin-icon.svg">
+                                                                    <img src="img/twitter-icon.svg">
+                                                                    <img src="img/facebook-icon.svg">
+                                                                    <img src="img/instagram-icon.svg">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table class="footer" align="left" border="0" cellpadding="0" cellspacing="0" style="width:100%">  
+                                        <tbody>
+                                            <tr>
+                                                <td class="footer-links">
+                                                    <a href="#" style="margin-right:10px" >UNSUBSCRIBE</a>
+                                                    <a href="#" >VIEW IN BROWSER</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="16" class="copyright">
+                                                    <p>&copy; 2011-2017 Red Stamp Agency Inc. All rights reserved.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="footer-icon">
+                                                    <img src="img/rs-icon.svg">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
